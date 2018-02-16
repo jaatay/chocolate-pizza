@@ -1,0 +1,87 @@
+header {
+    height: 100px;
+    border-bottom: solid 5px;
+}
+
+#logo {
+    float: left;
+    margin-top: 15px;
+    margin-right: 300px;
+    height: 42px;
+}
+
+#delicious {
+    font-family: ;
+    font-size: 30px;
+}
+
+#delSub {
+    font-size: 15px;
+}
+
+nav {
+    width: 901px;
+    margin: 0px auto;
+}
+
+#rss {
+    margin-left: 13px;
+}
+
+main {
+    width: 901px;
+    margin: 15px auto;
+}
+
+#title {
+    margin-top: 30px;
+}
+
+#title img {
+    float: right;
+}
+
+h1 {
+    font-family: ;
+    font-size: 40px;
+}
+
+#subHeader {
+    font-family: ;
+    color: gray;
+}
+
+p {
+
+}
+
+form {
+    background-image: url("../img/k-list.bg.png");
+}
+
+#leftList {
+    list-style: none;
+    float: left;
+}
+
+#rightList {
+    list-style: none;
+    float: right;
+}
+
+share {
+    border-top-style: solid 5px;  
+}
+
+button {
+    background-color: orange;
+    color: white;
+}
+
+footer {
+    text-align: center;
+}
+
+footer p {
+    color: gray;
+}
