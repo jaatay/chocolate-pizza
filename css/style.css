@@ -1,10 +1,6 @@
-/* * {
-    border: solid orange;
-}  */
-
 header {
     height: 100px;
-    border-bottom: solid 5px;
+    border-bottom: solid 15px gray;
     width: 901px;
     margin: 0px auto;
 }
@@ -26,15 +22,15 @@ header {
     font-family: 'Pacifico', cursive;
     font-style: italic;
     font-size: 27px;
-    margin-top: -10px;
+    margin-top: -7px;
     margin-bottom: 0px;
-    margin-left: 50px;
+    margin-left: 47px;
 }
 
 #delSub {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 12px;
-    margin-top: -7px;
+    font-size: 10px;
+    margin-top: -5px;
     margin-left: 50px;
     color: gray;
 }
@@ -46,15 +42,13 @@ nav {
 }
 
 nav ul {
-    display: inline-block;
+    float: right;
     margin-top: 38px;
-    margin-bottom: 38px;
 }
 
 nav li {
+    display: inline-block;
     list-style: none;
-    margin-right: 2px;
-    padding: 38px;
 }
 
 #rssIcon {
@@ -68,8 +62,7 @@ main {
 }
 
 #title {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    width: 907px;
+    width: 901px;
     margin-top: 30px;
 }
 
@@ -78,26 +71,30 @@ main {
 }
 
 h1 {
-    /* font-family: ; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;;
     margin-bottom: 0;
     margin-left: 0;
     font-size: 40px;
 }
 
 #subHeader {
-    /* font-family:  */
-    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    font-size: 12px;
     border:0;
     margin-top: 0;
     margin-bottom: 15px;
-    margin-left: 10px;
     padding: 0;
     color: gray;
 }
 
+#hero {
+    margin-bottom: 30px;
+}
+
 p {
-    text-indent: 10px;
-    font-size: 20px;
+    text-indent: 25px;
+    font-size: 19px;
+    margin: 30px 0;
 }
 
 form {
