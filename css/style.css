@@ -75,7 +75,8 @@ main {
     background-color: white;
     color: gray;
     font-size: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    margin-top: -20px;
 }
 #title button img {
     float: left;
@@ -110,6 +111,7 @@ p {
 
 form {
     background-image: url("../img/k-list-bg.png");
+    box-shadow: 0 10px 8px #888888;
 } 
 
 #leftList {
