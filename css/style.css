@@ -1,31 +1,64 @@
+* {
+    outline: 2px dashed red;
+}
+
 header {
     height: 100px;
     border-bottom: solid 5px;
+    width: 901px;
+    margin: 0px auto;
 }
 
 #logo {
     float: left;
-    margin-top: 15px;
+    margin-top: 29px;
+    margin-bottom: 29px; 
     margin-right: 300px;
     height: 42px;
+    width: 250px;
+}
+
+#logo img {
+    float: left;
 }
 
 #delicious {
-    font-family: ;
-    font-size: 30px;
+    font-family: 'Pacifico', cursive;
+    font-style: italic;
+    font-size: 27px;
+    margin-top: -10px;
+    margin-bottom: 0px;
+    margin-left: 50px;
 }
 
 #delSub {
-    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 12px;
+    margin-top: -7px;
+    margin-left: 50px;
+    color: gray;
 }
 
 nav {
     width: 901px;
     margin: 0px auto;
+    margin-right: 0%;
 }
 
-#rss {
-    margin-left: 13px;
+nav ul {
+    display: inline-block;
+    margin-top: 38px;
+    margin-bottom: 38px;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 2px;
+    padding: 38px;
+}
+
+#rssIcon {
+    margin-left: 10px;
 }
 
 main {
